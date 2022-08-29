@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 
 /* main container css starts */
 
@@ -126,16 +129,44 @@ flex-direction: column;
 }
 
 
+.btn:hover {
+    background-color: hsl(224, 23%, 55%);
+  }
+
+
 /* button css starts ends */
 
 @media (max-width: 768px) {
-    .container {
+    .container{
+
         background-image: url("images/pattern-background-mobile.svg");
         height: 100vh;
         width: 100vw;
-        
-
-
 
     }
   }
+
+  
+@media (max-width: 768px) {
+    .colume1{
+        width: 350px;
+        display: flex;
+
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .btn{
+        width: 270px;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .innerow2{
+        margin: 0px 30px 0px 30px;
+    }
+  }
+
+
