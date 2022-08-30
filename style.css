@@ -25,8 +25,7 @@ width: 100vw;
     display: flex;
     flex-direction: column;
     border-radius: 10px solid black;
-    width: 400px;
-    height: 620px;
+    
     background-color: white;
     box-shadow: 0px 10px 50px  hsl(224, 23%, 55%);
 }
@@ -34,8 +33,14 @@ width: 100vw;
 .image{
     display: flex;
     flex-direction: column;
+    width: 400px;
+    
+    
+
+    
 }
 .imgs{
+    width: 100%;
     border-radius: 20px 20px 0px 0px;
   
 }
@@ -46,9 +51,9 @@ width: 100vw;
 /* inner colum css starts */
 
 .innerrow{
+    display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 0px 40px 0px 40px;
 }
 
 .innerow2{
@@ -98,6 +103,7 @@ font-size: 16px;
 
 }
 .atag{
+    margin-bottom: 20px;
     text-decoration: none;
     color: hsl(224, 23%, 55%);
     font-weight: 700;
@@ -116,6 +122,7 @@ flex-direction: column;
 }
 
 .btn{
+    
     background-color:  hsl(245, 75%, 52%);
     color: white;
     height: 40px;
@@ -138,7 +145,8 @@ flex-direction: column;
 
 @media (max-width: 768px) {
     .container{
-
+        display: flex;
+        flex-direction: column;
         background-image: url("images/pattern-background-mobile.svg");
         height: 100vh;
         width: 100vw;
@@ -146,27 +154,19 @@ flex-direction: column;
     }
   }
 
+  @media (max-width: 416px) {
+    .image{
+        width: 370px;
+
+    }
+  }
+
+
+
+
+
+
+
   
-@media (max-width: 768px) {
-    .colume1{
-        width: 350px;
-        display: flex;
-
-    }
-  }
-
-
-  @media (max-width: 768px) {
-    .btn{
-        width: 270px;
-    }
-  }
-
-
-  @media (max-width: 768px) {
-    .innerow2{
-        margin: 0px 30px 0px 30px;
-    }
-  }
 
 
