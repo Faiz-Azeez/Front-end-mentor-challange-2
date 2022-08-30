@@ -57,7 +57,7 @@ width: 100vw;
 }
 
 .innerow2{
-    margin: 0px 50px 0px 50px;
+    margin: 0px 40px 0px 40px;
 }
 
 .headding{
@@ -74,7 +74,6 @@ width: 100vw;
 
 
 .innerrow3{
-    padding: 10px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -154,19 +153,58 @@ flex-direction: column;
     }
   }
 
-  @media (max-width: 416px) {
+  @media (max-width: 486px) {
     .image{
         width: 370px;
 
     }
   }
 
+  
+  @media (max-width: 480px) {
+    .image{
+        width: 370px;
 
+    }
+  }
 
+   
+  @media (max-width: 480px) {
+    .image{
+        width: 300px;
 
+    }
+  }
 
+ 
+  @media (max-width: 480px) {
+    .btn{
+        width: 250px;
 
+    }
+  }
 
+  @media (max-width: 480px) {
+    .innerow2{
+        margin: 0px 10px 0px 10px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .iconmusic,.change{
+        margin-right: 10px;
+    }
+  }
+
+  
+  @media (max-width: 480px) {
+    .annualplan{
+        margin-right: 20px;
+    }
+  }
+  
+ 
+  
   
 
 
